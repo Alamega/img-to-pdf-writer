@@ -14,7 +14,7 @@ public class ImgToPDFWriter extends Application {
     public void start(Stage stage) throws IOException {
         //Настройка Stage
         stage.setMinWidth(480);
-        stage.setMinHeight(200);
+        stage.setMinHeight(140);
         stage.getIcons().add(new Image(Objects.requireNonNull(ImgToPDFWriter.class.getResourceAsStream("/logo.png"))));
 
         //Создание и настройка Scene

@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane minHeight="200.0" minWidth="480.0" prefHeight="200.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="alamega.imgtopdfwriter.MainController">
+<BorderPane minHeight="140.0" minWidth="480.0" prefHeight="140.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="alamega.imgtopdfwriter.MainController">
    <padding>
       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
    </padding>
@@ -29,31 +29,6 @@
                      </font>
                   </Label>
                   <Button fx:id="buttonFileChoice" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Выбрать файлы..." textAlignment="CENTER">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                     <HBox.margin>
-                        <Insets left="10.0" />
-                     </HBox.margin>
-                  </Button>
-               </children>
-               <VBox.margin>
-                  <Insets />
-               </VBox.margin>
-            </HBox>
-            <HBox alignment="CENTER_LEFT" prefHeight="40.0">
-               <children>
-                  <Label text="Путь для PDF-файла: ">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
-                  <Label fx:id="labelPathForOutput" text="output.pdf">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
-                  <Button fx:id="buttonPathForOutput" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Выбрать путь..." textAlignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
