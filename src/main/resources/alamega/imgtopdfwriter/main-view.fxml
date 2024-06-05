@@ -68,12 +68,12 @@
             </HBox>
             <HBox alignment="CENTER_LEFT" prefHeight="40.0">
                <children>
-                  <Label text="Повторить запись ">
+                  <Label text="Записать каждую картинку ">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="inputCountWrite" prefHeight="25.0" prefWidth="50.0" text="0" />
+                  <TextField fx:id="inputCountWrite" prefHeight="25.0" prefWidth="50.0" text="1" />
                   <Label text=" раз.">
                      <font>
                         <Font size="14.0" />
