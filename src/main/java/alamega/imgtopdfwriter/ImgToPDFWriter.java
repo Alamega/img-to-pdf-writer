@@ -13,14 +13,15 @@ public class ImgToPDFWriter extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         //Настройка Stage
-        stage.setMinWidth(480);
+        stage.setMinWidth(320);
         stage.setMinHeight(140);
+        stage.setResizable(false);
         stage.getIcons().add(new Image(Objects.requireNonNull(ImgToPDFWriter.class.getResourceAsStream("/logo.png"))));
 
         //Создание и настройка Scene
         FXMLLoader fxmlLoader = new FXMLLoader(ImgToPDFWriter.class.getResource("main-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Запиши чтобы не забыть! Что?");
+        stage.setTitle("Запиши чтобы не забыть!");
         stage.setScene(scene);
         stage.show();
     }
